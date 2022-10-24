@@ -1,0 +1,176 @@
+
+
+body{
+    background-color: rgb(43, 35, 26);
+    font-family: 'Courier New', Courier, monospace;
+    }
+    .titulo{
+        height: 2rem;
+        font-size: 1.6rem;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: rgb(114, 87, 87);
+    }
+    .logo img{
+        margin-top: -4.5rem;
+        margin-left: 6rem;
+        position:absolute;
+        width: 7rem;
+
+    }
+    .subtitulo{
+        color: rgb(114, 162, 120);
+    }
+    
+    .contenido{
+        background-color: rgb(124, 206, 209);
+        padding: 0.5rem;
+    }
+    .totales{
+        background-color: rgb(148, 115, 179);
+        padding: 0.5rem;
+    }
+    
+    
+    /* Botonera principal */
+    .botonera_principal{
+        height: 3rem;
+        margin-top: 2.5rem;
+        background-color: aliceblue;
+        padding: 0.4rem;
+    }
+    .botonera_principal ul{
+        text-align: center;
+        list-style-type: none;
+    }
+    
+    .botonera_principal li{
+    display: inline-block;
+    padding-left: 0.8rem;
+    }
+    
+    .botonera_principal a{
+        font-size: 1.5rem;
+    text-decoration: none;
+    color: black;    
+    }
+    .botonera_principal a:hover{
+        color: chartreuse;
+    }
+    
+    /* ---------Tienda---- */
+    .pizzeria_contenido{
+        margin-left: 10rem;
+        display: inline-block;
+        width: 15rem;
+        padding: 3rem;
+    }
+    .contenedor_img{
+        width: 25%;
+    }
+    
+    .contenedor_img img{
+        width: 100%;
+    }
+
+    .producto_descripcion{
+        margin-left: 4rem;
+        display: inline-block;
+        color: rgb(109, 197, 101);    
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: left;
+        font-size: 1.2rem;
+    }
+    .contenedor_img{
+        margin-left: 4rem;
+        width: 18rem;
+        position: relative;
+        display: inline-block;
+    }
+
+    
+    /* -------CONTACTO ----------------*/
+    
+    .contacto_cont{
+        margin  : 3rem;
+    }
+    
+    .contacto_input{
+        color:black;
+        font-size: 1rem;
+        font-weight: bold;
+        width: 24rem;
+        display: block;
+        margin:0.2rem;
+        padding: 1rem;
+        box-sizing: border-box;
+    }
+    .mensaje{
+        color:black;
+        font-size: 1rem;
+        font-weight: bold;
+        width: 30rem;
+        display: block;
+        margin:0.2rem;
+        padding: 1rem;
+        box-sizing: border-box;
+    }
+    .boton{
+        background-color:darkgreen;
+        color:aliceblue;
+        width: 8rem;
+        height: 1.6rem;
+       }
+    .boton:hover{
+        box-shadow: inset;
+    }
+    .pie{
+        padding: 5rem;
+        color: rgb(109, 197, 101);  ;
+        text-align: center;
+        position: relative;
+        font-style: italic;
+
+    }
+    .logo{
+        text-align: left;
+        padding: 1rem;
+            }
+    .variedades{
+        position: relative;
+        display: inline-block;
+        background-color: aliceblue;
+        width: 10rem;
+        padding: 1rem;
+            }
+    .lista{
+        line-height: 1.6rem;
+        display: block;
+        width: 12rem;
+    }
+    .lista ul{
+        display: block;
+        padding: 0px;
+        margin-top: 10px;
+        list-style-type: none;
+            }
+            
+    .lista li{
+        display: inline-block;
+        padding-left: 0.8rem;
+            }
+            
+    .lista a{
+        text-decoration: none;
+        color: rgb(109, 197, 101);    
+            }
+    .lista a:hover{
+        color: chocolate !important;
+    }
+    .nosotros{
+        margin-top: 3rem;
+        margin-left: 10rem;
+        font-size: 20px;
+        width: 50rem;
+        color: aliceblue;
+    }
