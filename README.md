@@ -10,6 +10,7 @@ Deberas contar con
 *PHP*
 *APACHE*
 *MYSQL*
+*GIT*
 
 ## Repositorio
 
